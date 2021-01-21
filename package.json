@@ -1,0 +1,38 @@
+{
+  "name": "react-and-jest-and-react-testing-library-unit",
+  "version": "1.0.0",
+  "description": "Complete guide to component testing with Jest for beginners. Jest's Ultimate Course @techsith",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "@testing-library/jest-dom": "5.11.9",
+    "@testing-library/react": "11.2.3",
+    "react": "16.14.0",
+    "react-dom": "16.14.0",
+    "react-scripts": "4.0.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "devDependencies": {
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom --coverage --updateSnapshot",
+    "eject": "react-scripts eject"
+  },
+  "jest": {
+    "testRegex": "/__tests__/.*[sS]pec.js$",
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/spec",
+      "/__snapshots__"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
